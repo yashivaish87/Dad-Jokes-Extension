@@ -1,4 +1,4 @@
-#Dad Jokes
+# **Dad Jokes**
 ### **Description**
 The **Dad Joke Chrome Extension** delivers endless laughs with just one click! Each time you click, you'll get a new dad joke, and you can either share it or copy it directly from the extension. Perfect for those who love quick humor!
 
