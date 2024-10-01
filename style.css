@@ -1,0 +1,68 @@
+body{
+    width: 400px;
+    height: 320px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+.popup-container {
+    display: flex;               
+    flex-direction: column;      
+    justify-content: center;      
+    align-items: center;         
+    text-align: center;          
+}
+h1{
+    
+    font-size: 24px;
+    color: crimson;
+    margin: 0 0 10px 0;
+}
+p{
+    display: inner-flex;
+    margin: auto 10px;
+    font-size: 22px;
+    color: crimson;
+    border-radius: 6px;
+    border: 1px solid lightcoral;
+    padding: 10px;
+}
+button {
+    background-color: rgb(177, 56, 56); 
+    color: white;                
+    border: none;                
+    border-radius: 5px;        
+    padding: 10px 15px;        
+    cursor: pointer;            
+    transition: background-color 0.3s; 
+    margin-top: 10px;           
+}
+#shareJokeBtn {
+    font-size: 24px; 
+    cursor: pointer; 
+    color: crimson; 
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+}
+#copyJokeBtn{
+    font-size: 24px; 
+    cursor: pointer; 
+    color: crimson; 
+    position: absolute; 
+    top: 10px; 
+    right: 40px;
+}
+.feedback-message { 
+    font-size: 14px; 
+    color: rgb(228, 157, 172); 
+    position: absolute;
+    top: 40px; 
+    right: 40px;
+}
+button:hover {
+    background-color: crimson;  
+}
