@@ -1,5 +1,8 @@
+#Dad Jokes
 ### **Description**
 The **Dad Joke Chrome Extension** delivers endless laughs with just one click! Each time you click, you'll get a new dad joke, and you can either share it or copy it directly from the extension. Perfect for those who love quick humor!
+
+---
 
 ### **Features**
 - Fetches random dad jokes from the [icanhazdadjoke API](https://icanhazdadjoke.com/api).
@@ -7,6 +10,8 @@ The **Dad Joke Chrome Extension** delivers endless laughs with just one click! E
 - **Share** button to easily share the jokes (using the Web Share API).
 - **Copy** button to copy jokes to your clipboard with visual feedback.
 - Smooth hover effects and transitions for a polished user experience.
+
+---
 
 ### **Preview**
 When you open the extension:
