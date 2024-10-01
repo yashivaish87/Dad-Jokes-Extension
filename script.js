@@ -59,13 +59,13 @@ document.getElementById('copyJokeBtn').addEventListener('click', () => {
     const jokeText = document.getElementById('jokeElement').innerText; 
     navigator.clipboard.writeText(jokeText) 
         .then(() => {
-            const feedbackMessage = document.getElementById('copyFeedback'); // Get the feedback message element
-            feedbackMessage.innerText = 'Copied!'; // Set the feedback text
-            feedbackMessage.style.display = 'inline'; // Show the feedback message
+            const feedbackMessage = document.getElementById('copyFeedback'); 
+            feedbackMessage.innerText = 'Copied!'; 
+            feedbackMessage.style.display = 'inline'; 
             
-            // Hide the feedback message after 2 seconds
+            
             setTimeout(() => {
-                feedbackMessage.style.display = 'none'; // Hide the feedback message
+                feedbackMessage.style.display = 'none'; 
             }, 2000);
         })
         .catch(err => {
